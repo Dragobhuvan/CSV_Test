@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Comparison Results</title>
+</head>
+<body>
+    <h1>CSV Comparison Results</h1>
+    {% if differences %}
+        <pre>{{ differences }}</pre>
+    {% else %}
+        <p>No differences found between the two sheets.</p>
+    {% endif %}
+</body>
+</html>
